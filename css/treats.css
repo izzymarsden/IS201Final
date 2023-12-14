@@ -1,0 +1,90 @@
+/*
+* CSS Style Sheet made from scratch
+*/
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+
+a[name="GingerbreadHouses"] {
+    color: green;
+    
+}
+
+header {
+    background-color: darkolivegreen;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    color: white; /* Header text color */
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font family */
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font family */
+}
+
+/* Change the color when hovering over a link */
+.navbar a:hover {
+    color: goldenrod;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkolivegreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+.anchor {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkolivegreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subhead {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkolivegreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subhead2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    font-size: 18px;
+    font-weight: bold;
+}
+.maintext {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkolivegreen;
+    font-size: 16px;
+}
